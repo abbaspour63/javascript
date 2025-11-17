@@ -310,8 +310,24 @@ const j=[
  // cartitem.splice(0,2)
  // console.log(cartitem)
 
- const number=Math.random()
- document.querySelector('.check').addEventListener('click',function (){
-     const guess=Number
- })
+//  const number=Math.random()
+//  document.querySelector('.check').addEventListener('click',function (){
+//      const guess=Number
+//  })
 
+
+
+
+let  userinfone={
+    userid:22,
+    username:'masoodsadri',
+    role:'Admin'
+}
+let userinfoTwo={
+     userid:20,
+    username:'a',
+    role:'user'
+}
+let fetchuserData=function(user){
+    console.log('username':${user.username})
+}

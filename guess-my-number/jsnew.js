@@ -134,4 +134,5 @@ const sortproducts=function(products){
 }
 sortproducts(productItems)
 console.log(productItems)
+console.log(productItems)
 
